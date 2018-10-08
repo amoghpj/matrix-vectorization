@@ -1,10 +1,17 @@
 '''
 Author: Amogh Jalihal
 Date: 2018-10-08
-Description: Python implementation of the Magnus-Neudecker Eliminator-Duplicator matrix vectorization method for symmetric matrices
-Note: This is a reimplementation of the R package matrixcalc which has utilities for the same. Matrixcalc is authored by Frederick Novomestky, and the package lives at 
-https://cran.r-project.org/web/packages/matrixcalc/index.html
 
+Description: 
+    Python implementation of the Magnus-Neudecker Eliminator-Duplicator
+    matrix vectorization method for symmetric matrices
+
+Note:
+    This is a reimplementation of the R package matrixcalc which has 
+    utilities for the same. Matrixcalc is authored by Frederick Novomestky,
+    and the package lives at 
+    https://cran.r-project.org/web/packages/matrixcalc/index.html
+    
 Usage:
 To generate the eliminator matrix L for an nxn symmetric matrix, call L(n). Likewise for the duplicator matrix D.
 
